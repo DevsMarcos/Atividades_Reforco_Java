@@ -15,5 +15,7 @@ public class Main {
         conversao = metros * 100;
 
         System.out.printf("O valor de "+metros+" em CM é de: "+conversao+" CM");
+
+        reader.close();
     }
 }
