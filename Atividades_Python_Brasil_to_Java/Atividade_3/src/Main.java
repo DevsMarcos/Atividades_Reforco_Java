@@ -18,5 +18,7 @@ public class Main {
         soma = n1 +  n2;
 
         System.out.printf("A soma dos dosi números é de: %.2f", soma);
+
+        reader.close();
     }
 }
