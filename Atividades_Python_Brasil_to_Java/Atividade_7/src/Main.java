@@ -15,5 +15,7 @@ public class Main {
         dobro = area*2;
 
         System.out.printf("A área do quadrado é de: %.1f e o seu dobro é de: %.1f", area, dobro);
+
+        reader.close();
     }
 }
