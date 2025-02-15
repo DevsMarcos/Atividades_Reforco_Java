@@ -14,5 +14,7 @@ public class Main {
         media = soma/4;
 
         System.out.printf("A media das notas é de: %.2f", media);
+
+        reader.close();
     }
 }
