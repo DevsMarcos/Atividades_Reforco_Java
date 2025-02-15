@@ -15,5 +15,6 @@ public class Main {
 
         System.out.printf("A área do círculo é de: %.2f", area );
 
+        reader.close();
     }
 }
