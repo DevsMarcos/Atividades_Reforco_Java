@@ -12,5 +12,7 @@ public class Main {
         numero = reader.nextDouble();
 
         System.out.printf("O número informado foi: %.2f", numero);
+
+        reader.close();
     }
 }
